@@ -1,0 +1,92 @@
+.container_box {
+  display: flex;
+  align-items: center;
+
+  width: auto;
+
+  height: auto;
+  overflow: hidden;
+  margin-top: 15px;
+  margin-left: 65px;
+}
+
+.container_ofert {
+  width: 30%;
+
+  min-width: 100px;
+  min-height: 720px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px;
+  margin-left: 0px;
+  align-content: center;
+}
+.ofert_photo_1 {
+  width: 100%;
+  height: 200px;
+  background: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2020/08/hamburguesa-2028707.jpg?itok=ujl3qgM9")
+    no-repeat center/cover;
+
+}
+.ofert_photo_2 {
+    width: 100%;
+    height: 200px;
+    background: url("https://www.eventindustryshow.com/img/blog/noticia3.jpg")
+      no-repeat center/cover;
+  
+  }
+  .ofert_photo_3 {
+    width: 100%;
+    height: 200px;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkis0OZys1IJqoTKB6Wn5zbvQsgkUpFBuK5w&usqp=CAU")
+      no-repeat center/cover;
+  
+  }
+.ofert_title {
+  margin-top: 10px;
+  text-align: center;
+  border-style: none none dotted;
+  border-color: rgb(201, 201, 201);
+}
+
+.ofert_detail {
+  margin-top: 5px;
+  padding: 5px;
+  position: relative;
+  margin-bottom: 0;
+}
+.ofert_prize {
+  margin-left: 5px;
+  margin-top: -15px;
+  position: relative;
+}
+.ofert_date {
+  margin-left: 5px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.ofert_review {
+  margin-left: 5px;
+  margin-top: 0px;
+  margin-bottom: -10px;
+}
+.ofert_review_info {
+  margin-left: 30px;
+}
+.ofert_review_info p {
+  margin: 0;
+}
+
+.valoracion {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .container_ofert {
+    width: 97%;
+  }
+}

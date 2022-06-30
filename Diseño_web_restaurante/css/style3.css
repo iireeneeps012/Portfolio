@@ -1,0 +1,69 @@
+
+
+/* ACCORDION */
+    .container_info{
+        margin-bottom: 20px;
+    }
+
+
+    /* SECCIÓN 1 */
+
+        .photo_description{
+        width: 600px;
+        height: 300px;
+        }
+        .description_info{
+            display: block;
+          
+            float: right;
+            margin-top: -280px;
+            margin-right: 300px;
+        }
+
+    /* --- */
+
+    /* SECCIÓN 2 */
+    .location_info{
+        display: block;
+        position: relative;
+        float: right;
+        margin-top: -300px;
+        margin-right: 650px;
+    }
+
+    /* --- */
+
+
+    /* SECCIÓN 3 */
+    .contact_info{
+       
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    /* --- */
+
+
+    /* SECCIÓN 4 */
+    /* --- */
+
+
+
+    /* SECCIÓN 5 */
+
+    .ratings_info{
+        margin-left: 20px;
+    }
+    .ratings_review_number{
+        margin-left: 20px;
+    }
+    .ratings_review_coment{
+        margin-left: 20px;
+    }
+ 
+    .ratings_review_name{
+        margin-left: 20px;
+    }
+ 
+ 
+    /* --- */
