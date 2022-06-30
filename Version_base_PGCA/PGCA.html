@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+<HTML>
+<head>
+    <title>PGCA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-black">
+        <img class="logo" src="resources/URJ_logo_BN_NEG_corona_roja.jpg">
+    </nav>
+
+    <!-- search box area -->
+    <div class="contenedor">
+        <div class="cajaBusqueda ">
+                <div class="input-group">
+                    <input type="search" class="form-control rounded" placeholder="Buscar eventos o categorías" id="search"/>
+                    <button type="button" class="btn btn-danger">Buscar</button>
+                </div>
+        </div>
+    </div>
+
+    <!-- filters -->
+    <div class="filters-container">
+        <div class="row d-flex justify-content-center flex-nowrap">
+            <div class="select-container">
+                <select class="custom-select" id="asociacion">
+                    <option value="" selected>Selecciona una asociacion:</option>
+                    <option value="BIC">BIC</option>
+                    <option value="ARJE">ARJE</option>
+                    <option value="ADEMED URJC">ADEMED URJC</option>
+                    <option value="APOE">APOE</option>
+                    <option value="ANGER">ANGER</option>
+                    <option value="ESN URJC">ESN URJC</option>
+                    <option value="I+b ingeniería biomédica">I+b ingeniería biomédica</option>
+                    <option value="IURIS URJC">IURIS URJC</option>
+                    <option value="ASOLSE">ASOLSE</option>
+                    <option value="Asociación Aeroespacial Cosmos">Asociación Aeroespacial Cosmos </option>
+                    <option value="ALOA">ALOA</option>
+                    <option value="ASESP">ASESP</option>
+                    <option value="ADHUE">ADHUE</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <select class="custom-select" id="mes">
+                    <option value="" selected>Selecciona un mes:</option>
+                    <option value="ENERO">ENERO</option>
+                    <option value="FEBRERO">FEBRERO</option>
+                    <option value="MARZO">MARZO</option>
+                    <option value="ABRIL">ABRIL</option>
+                    <option value="MAYO">MAYO</option>
+                    <option value="JUNIO">JUNIO</option>
+                    <option value="JULIO">JULIO</option>
+                    <option value="AGOSTO">AGOSTO</option>
+                    <option value="SEPTIEMBRE">SEPTIEMBRE</option>
+                    <option value="OCTUBRE">OCTUBRE</option>
+                    <option value="NOVIEMBRE">NOVIEMBRE</option>
+                    <option value="DICIEMBRE">DICIEMBRE</option>
+                </select>
+            </div>
+            <div class="select-container">
+                <select class="custom-select" id="campus">
+                    <option value="" selected>Selecciona un campus:</option>
+                    <option value="ALCORCON">ALCORCON</option>
+                    <option value="ARANJUEZ">ARANJUEZ</option>
+                    <option value="FUENLABRADA">FUENLABRADA</option>
+                    <option value="MOSTOLES">MOSTOLES</option>
+                    <option value="MADRID-VICALVARO">MADRID-VICALVARO</option>
+                    <option value="MADRID-QUINTANA">MADRID-QUINTANA</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- content -->
+    <div class="contenedor-eventos">
+        <div class=" prueba">
+            <section class="" id="cajaseventos">
+                <!-- Inyeccion JavaScript-->
+            </section>
+        </div>
+    </div>
+    <script src="js/datos.js"></script>
+    <script src="js/eventos.js"></script>
+    <script src="js/funciones_filtros.js"></script>
+</body>
+    <!-- footer -->
+<footer class="contenedor-footer bg-black page-footer ">
+    <div class="footer-copyright text-center text-white py-3">© 2021 PGCA
+    </div>
+    <div class="pt-4 bg-red "></div>
+</footer>
+</html>
+
